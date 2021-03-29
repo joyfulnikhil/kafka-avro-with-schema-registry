@@ -1,5 +1,6 @@
 package com.joy.kafka.avro.producerwithschemaregistry.service;
 
+import model.schema.Employee;
 import model.schema.User;
 import org.springframework.beans.factory.annotation.Value;
 import lombok.extern.slf4j.Slf4j;
@@ -24,6 +25,7 @@ public class Producer {
         this.kafkaTemplate.send(this.topic, user.getName(), user);
         log.info(String.format("Produced user -> %s", user));
     }
+
 }
 
 

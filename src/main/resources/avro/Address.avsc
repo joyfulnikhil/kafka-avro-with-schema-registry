@@ -1,0 +1,13 @@
+{
+"namespace":"model.schema",
+"type":"record",
+"name":"Address",
+"fields":[
+{"name":"street1","type":["null","string"]},
+{"name":"street2","type":["null","string"]},
+{"name":"city","type":["null","string"]},
+{"name":"state","type":["null","string"]},
+{"name":"pinCode","type":["null","string"]},
+{"name":"country","type":["null","string"]}
+]
+}

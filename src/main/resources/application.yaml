@@ -3,7 +3,7 @@ topic:
   partitions: 3
   replication-factor: 1
 server:
-  port: 8080
+  port: 9090
 spring:
   kafka:
     bootstrap-servers:

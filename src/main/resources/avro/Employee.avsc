@@ -1,0 +1,13 @@
+{
+"namespace":"model.schema",
+"type":"record",
+"name":"Employee",
+"fields":[
+{"name":"employeeId","type":["null","string"]},
+{"name":"firstName","type":["null","string"]},
+{"name":"lastName","type":["null","string"]},
+{"name":"age","type":["null","int"]},
+{"name":"sex","type":["null","string"]},
+{"name":"address","type":["null","Address"]}
+]
+}
